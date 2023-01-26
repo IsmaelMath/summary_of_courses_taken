@@ -113,6 +113,30 @@ clientes[2:3,]
   # Algumas funções possuem o argumento na.rm, ou semelhantes, para descosiderar
   # NA no cálculo. É o caso da função mean() ou sum()
 
+# Exemplo:
+
+x <- c(1,2,NA,3)
+x
+mean(x)
+mean(x, na.rm=TRUE)
+
+xn = na.omit(x)
+xn
+mean(xn)
+
+# Exemplo:
+df <- data.frame(x = c(1,2,3), y=c(0,10,NA))
+df
+na.omit(df)
+
+
+
+
+
+
+
+
+
 
 
 
