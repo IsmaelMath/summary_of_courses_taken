@@ -95,7 +95,7 @@ clientes[2:3,]
 
 # ------------ VALORES FALTANTES E O NA ------------- #
 
-# em casos onde não existe valor em uma coluna de uma linha, o R atribui NA. Ou no
+# No casos onde não existe valor em uma coluna de uma linha, o R atribui NA. Ou no
 # caso de valores omissos os mesmo deverão ser substituidos por NA.
 
 # Seguem algumas funções úteis para lidar-se com NA:
