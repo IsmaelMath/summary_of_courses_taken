@@ -8,7 +8,7 @@
 # As funções do dplyr reproduzem as principais tarefas da manipulação, de forma bastante
 # intuitiva.
 
-# Oselect() é uma função mais semples de ser entendida. É usada para selecionar variáveis 
+# O select() é uma função mais semples de ser entendida. É usada para selecionar variáveis 
 # (coluna, campos, features...) do seu data frame. Pode ser feito também uma "seleção negativa",
 # ou seja, escolher as colunas que não quer.
 

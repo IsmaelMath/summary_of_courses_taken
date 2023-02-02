@@ -14,14 +14,14 @@ sua_func
 
 # Exemplo:
 # ----------------------------------------------------------------------------------
-# Osisitena de avaliação de uma diciplina em uma universidade consiste na realização
+# O sistema de avaliação de uma diciplina em uma universidade consiste na realização
 # de três provas e um trabalho.
 
 # A Nota Média do aluno é calculada pela seguinte expressão Nota Média = (P1 + P2 + P3 + T) / 4
 
-# Se a Nota média do luno for no minimo 6 pontos, else é aprovado, caso contrario é reprovado.
+# Se a Nota média do aluno for no minimo 6 pontos, else é aprovado, caso contrario é reprovado.
 # Considerando um aluno que observe as seguintes regras: p1 = 5, p2 = 3, p3 = 5, trabalho = 6,
-# contrua uma rotina que calcula a Nota Média e informe a situação do aluno.
+# construa uma rotina que calcula a Nota Média e informe a situação do aluno.
 
 
 nm = function(p1, p2, p3, t) {
@@ -33,40 +33,4 @@ nm = function(p1, p2, p3, t) {
 nm(5, 3, 5, 6)
 nm(10, 10, 10, 10)
 # ----------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
