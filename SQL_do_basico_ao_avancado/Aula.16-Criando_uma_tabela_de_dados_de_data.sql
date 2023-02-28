@@ -14,6 +14,6 @@ CREATE TABLE aniversarios (nome VARCHAR(100), data_nascimento DATE);
 SELECT * FROM teste_tipo_dados.aniversarios;
 
 -- Inserindo dados na tabela criada anteriormente
-INSERT INTO aniversarios (nome, data_nascimento) VALUE ("Ismael Batista","1994-02-21");
-INSERT INTO aniversarios (nome, data_nascimento) VALUE ("Ylari Batista","1996-06-07");
+INSERT INTO aniversarios (nome, data_nascimento) VALUES ("Ismael Batista","1994-02-21");
+INSERT INTO aniversarios (nome, data_nascimento) VALUES ("Ylari Batista","1996-06-07");
 INSERT INTO aniversarios (nome, data_nascimento) VALUES ("Laura Batista", "1998-08-07");
